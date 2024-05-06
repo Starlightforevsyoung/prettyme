@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="sis.css" type="text/css">
+<title>
+RegistrationForm
+</title>
+</head>
+<body>
+<form action="prin.html" method="post">
+<div>
+<label>Full Name</label>
+<input type="text" placeholder="Type your name" required/>
+</div>
+<div>
+<label>Email</label>
+<input type="email" placeholder="abellera@gmail.com" required/>
+</div>
+<div>
+<label>Gender</label>
+<input type="radio" name="gender" required /> Male
+<input type="radio" name="gender" /> Female
+<input type="radio" name="gender" /> Choose not to say
+</div>
+<dib>
+<label>Status</label>
+<select>
+    <option value="Married">Married</option>
+    <option value="Single">Single</option>
+    <option value="Divorced">Divorced</option>
+</select>
+</div>
+<div>
+<label>Bank Account</label>
+ <input type="text" placeholder="Name of Beneficiary" required />
+</div>
+<div>
+<label>Birthdate</label>
+<input type="date" required/>
+</div>
+<div>
+<label>Phone Number</label>
+<input type="number" placeholder="Enter your phone number" max-length="11" required/>
+</div>
+<div>
+<label>Password</label>
+<input type=“password” placeholder="Create a password" required/>
+</div>
+<div>
+<input type="submit" name="submit" />
+<input type="reset" name="reset" />
+</div>
+</form>
+</body>
+<body text="dark pink">
+</html>
